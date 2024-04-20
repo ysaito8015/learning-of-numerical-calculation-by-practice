@@ -20,8 +20,8 @@ ISBN-13  :  978-4320124844
 
 
 ```shell
-$ gcc -Wall -o 1_2_cancel_c 1_2_cancel.c -lm
-$ ./1_2_cancel_c
+$ gcc -Wall -o machine_epsilon_hat ./machine_epsilon_hat.c -lm
+$ ./machine_epsilon_hat # float machine epsilon hat = 5.960464e-08
 ```
 
 
@@ -29,6 +29,6 @@ $ ./1_2_cancel_c
 
 
 ```shell
-$ gfortran -Wall -o 1_2_cancel_f 1_2_cancel.f90
-$ ./1_2_cancel_f
+$ gfortran -Wall -o machine_epsilon_hat machine_epsilon_hat.f90
+$ ./machine_epsilon_hat #  Floating point machine epsilon is:   5.96046448E-08
 ```
